@@ -5,4 +5,4 @@ API has 2 controllers one for administration with methods for Create, Update, De
 
 API is writen with .net8 C# and with using EntityFramework to work with data. Data is stored in SQL database.
 
-To simplify development project is dockerized and dev SQL database is deployed on SQL server that is in docker container that is started together with the API by docker-compose and API is using SQL sa account in that database and database is initialized with some example hotels.
+To simplify development project is dockerized and dev SQL database is deployed on SQL server that is in docker container that is started together with the API by docker-compose and API is using SQL sa account in that database and database is initialized with some example hotels. For development run with docker-compose.
